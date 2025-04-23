@@ -20,7 +20,7 @@ export default function App() {
         <Text c="red" size="xl">
           Keyboard controls do not work (RangeSlider not grabbing focus?):
         </Text>
-        <RangeSlider color="red" />
+        <RangeSlider color="red" minRange={1} />
         <Text c="red" size="xl">
           Suggestion: <Kbd>{"←"}</Kbd> and <Kbd>{"→"}</Kbd> for left thumb,
           <Kbd>{"↑"}</Kbd> and <Kbd>{"↓"}</Kbd> for right thumb.
